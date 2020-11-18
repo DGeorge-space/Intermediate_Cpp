@@ -1,9 +1,10 @@
-#include "BasicExceptions.h"
+#include "StandardExceptions.cpp"
 
 
 using namespace std;
 int main()
 {
-    catchIfWrong();
-    cout <<"" << endl;
+    runMe();
+
+    cout << "Hdjdgdjghd" << endl;
 }
