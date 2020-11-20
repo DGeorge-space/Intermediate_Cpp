@@ -20,4 +20,17 @@ class Test{
     }
 };
 
+void runMe(){
+        Test test;
+
+    try{
+        test.goesWrong();
+    }
+    catch(MyException &e){
+        cout << e.what() <<endl;
+    }
+
+    cout << "Hdjdgdjghd" << endl;
+}
+
 // See https://en.cppreference.com/w/cpp/error/exception for alist of standard exceptions
